@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { asText, Content } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
@@ -26,7 +27,7 @@ export type HeroProps = SliceComponentProps<Content.HeroSlice>;
 /**
  * Component for "Hero" Slices.
  */
-const Hero = ({ slice }: HeroProps): JSX.Element => {
+const Hero = ({ slice }: HeroProps) => {
   const ready = useStore((state) => state.ready);
   const isDesktop = useMediaQuery("(min-width: 768px)", true);
 

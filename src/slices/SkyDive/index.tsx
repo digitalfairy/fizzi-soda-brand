@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 
@@ -14,7 +15,7 @@ export type SkyDiveProps = SliceComponentProps<Content.SkyDiveSlice>;
 /**
  * Component for "SkyDive" Slices.
  */
-const SkyDive = ({ slice }: SkyDiveProps): JSX.Element => {
+const SkyDive = ({ slice }: SkyDiveProps) => {
   return (
     <Bounded
       data-slice-type={slice.slice_type}
