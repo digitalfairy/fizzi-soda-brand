@@ -31,7 +31,7 @@ A high-performance, immersive landing page built with modern frontend and 3D tec
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your-Repo-URL]
+    git clone [https://github.com/digitalfairy/fizzi-soda-brand]
     ```
 2.  **Install dependencies:**
     ```bash
